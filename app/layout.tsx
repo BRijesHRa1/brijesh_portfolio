@@ -3,6 +3,7 @@ import { Poppins } from 'next/font/google';
 import { ThemeProvider } from '@/app/components/ThemeProvider';
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
+import { Analytics } from '@vercel/analytics/next';
 
 const poppins = Poppins({ 
   subsets: ['latin'],
@@ -66,6 +67,7 @@ export default function RootLayout({
           <main className="flex-grow">{children}</main>
           <Footer />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
