@@ -53,11 +53,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/Brijesh_picture.png" />
-        <link rel="apple-touch-icon" href="/Brijesh_picture.png" />
-        
-        {/* Google Analytics */}
-        <script
+         {/* Google Analytics */}
+         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-960BKHTNJ8"
         />
@@ -71,6 +68,10 @@ export default function RootLayout({
             `,
           }}
         />
+        <link rel="icon" href="/Brijesh_picture.png" />
+        <link rel="apple-touch-icon" href="/Brijesh_picture.png" />
+        
+       
       </head>
       <body className={`${poppins.className} min-h-screen flex flex-col`}>
         <ThemeProvider
