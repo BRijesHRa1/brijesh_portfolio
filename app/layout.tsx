@@ -55,6 +55,22 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/Brijesh_picture.png" />
         <link rel="apple-touch-icon" href="/Brijesh_picture.png" />
+        
+        {/* Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-960BKHTNJ8"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-960BKHTNJ8');
+            `,
+          }}
+        />
       </head>
       <body className={`${poppins.className} min-h-screen flex flex-col`}>
         <ThemeProvider
