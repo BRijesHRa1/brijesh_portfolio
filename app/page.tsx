@@ -328,7 +328,7 @@ export default function Home() {
                 
                 <div className="md:w-1/2 md:pr-10 pb-10 md:pb-0 md:text-right pl-6 md:pl-0">
                   <div className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary mb-2">
-                    April 2021 - March 2023
+                    April 2021 - March 2002
                   </div>
                   <h3 className="text-xl font-bold">Software Engineer</h3>
                   <h4 className="text-foreground/80 mb-2">Taboola - Gurugram, India</h4>
