@@ -426,8 +426,8 @@ export default function Home() {
                   <h4 className="text-foreground/80 mb-2">Avenir Technologies - Delhi, India</h4>
                   <div className="flex justify-end mb-3">
                     <img 
-                      src="/anshsofttech.png"
-                      alt="Ansh Softech Logo"
+                      src="/avenir.png"
+                      alt="Avenir Technologies Logo"
                       className="h-8 object-contain"
                     />
                   </div>
