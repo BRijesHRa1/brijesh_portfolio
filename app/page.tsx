@@ -270,7 +270,52 @@ export default function Home() {
             
             {/* Experience items */}
             <div className="space-y-12">
-
+              {/* MKC */}
+                            <motion.div 
+                variants={itemVariants}
+                className="relative flex flex-col md:flex-row items-start md:items-center"
+              >
+                {/* Timeline dot */}
+                <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 rounded-full bg-gradient-to-r from-primary to-secondary shadow-lg shadow-primary/20"></div>
+                
+                <div className="md:w-1/2 md:pr-10 pb-10 md:pb-0 md:text-right pl-6 md:pl-0">
+                  <div className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary mb-2">
+                    June 2025 - Present
+                  </div>
+                  <h3 className="text-xl font-bold">Software Engineer</h3>
+                  <h4 className="text-foreground/80 mb-2">McKinsey & Company</h4>
+                  <div className="flex justify-end mb-3">
+                    <img 
+                      src="/uab_logo_2.png"
+                      alt="UAB Logo"
+                      className="h-8 object-contain"
+                    />
+                  </div>
+                </div>
+                
+                <div className="md:w-1/2 md:pl-10 backdrop-blur-sm bg-background/40 rounded-lg p-4 border border-white/5 shadow-lg md:ml-0 ml-6">
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start">
+                      <div className="h-5 w-5 rounded-full bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-center mr-2 mt-0.5">
+                        <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      </div>
+                      <span>Architected and developed high-performance microservices architecture and APIs using Java, Spring Boot, Hibernate, Spring Data JPA, and DynamoDB for scalable enterprise platforms, improving system throughput and reducing deployment errors by 55%.</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="h-5 w-5 rounded-full bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-center mr-2 mt-0.5">
+                        <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      </div>
+                      <span>Implemented Single Sign-On (SSO) and secrets management using OAuth2, JWT, and AWS Secrets Manager, reducing authentication and security issues by 60%.</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="h-5 w-5 rounded-full bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-center mr-2 mt-0.5">
+                        <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      </div>
+                      <span>Developed ETL and real-time data pipelines for feature engineering and model scoring using Python, FastAPI, SQL, and cloud services (AWS, Azure).</span>
+                    </li>
+                  </ul>
+                </div>
+              </motion.div>
               {/* UAB */}
               <motion.div 
                 variants={itemVariants}
@@ -281,7 +326,7 @@ export default function Home() {
                 
                 <div className="md:w-1/2 md:pr-10 pb-10 md:pb-0 md:text-right pl-6 md:pl-0">
                   <div className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary mb-2">
-                    May 2025 - Present
+                    Jan 2025 - May 2025
                   </div>
                   <h3 className="text-xl font-bold">Software Engineer (AI Researcher)</h3>
                   <h4 className="text-foreground/80 mb-2">University of Alabama at Birmingham</h4>
@@ -347,7 +392,7 @@ export default function Home() {
                       <div className="h-5 w-5 rounded-full bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-center mr-2 mt-0.5">
                         <div className="h-2 w-2 rounded-full bg-primary"></div>
                       </div>
-                      <span>Testing and brijesh testiing Engineered product integrations resulting in <span className="text-primary font-medium">10% engagement growth</span></span>
+                      <span>Engineered product integrations resulting in <span className="text-primary font-medium">10% engagement growth</span></span>
                     </li>
                     <li className="flex items-start">
                       <div className="h-5 w-5 rounded-full bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-center mr-2 mt-0.5">
@@ -375,10 +420,10 @@ export default function Home() {
                 
                 <div className="md:w-1/2 md:pr-10 pb-10 md:pb-0 md:text-right pl-6 md:pl-0">
                   <div className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary mb-2">
-                    Jan 2020 - March 2021
+                    Oct 2019 - March 2021
                   </div>
                   <h3 className="text-xl font-bold">Software Engineer</h3>
-                  <h4 className="text-foreground/80 mb-2">Ansh Softech - Pune, India</h4>
+                  <h4 className="text-foreground/80 mb-2">Avenir Technologies - Delhi, India</h4>
                   <div className="flex justify-end mb-3">
                     <img 
                       src="/anshsofttech.png"
