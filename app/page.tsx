@@ -286,8 +286,8 @@ export default function Home() {
                   <h4 className="text-foreground/80 mb-2">McKinsey & Company</h4>
                   <div className="flex justify-end mb-3">
                     <img 
-                      src="https://brandlogos.net/mckinsey-company-logo-99029.html"
-                      alt="UAB Logo"
+                      src="/mkc.png"
+                      alt="McKinsey Logo"
                       className="h-8 object-contain"
                     />
                   </div>
