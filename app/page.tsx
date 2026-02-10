@@ -347,7 +347,7 @@ export default function Home() {
                       <div className="h-5 w-5 rounded-full bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-center mr-2 mt-0.5">
                         <div className="h-2 w-2 rounded-full bg-primary"></div>
                       </div>
-                      <span>Engineered product integrations resulting in <span className="text-primary font-medium">10% engagement growth</span></span>
+                      <span>Testing Engineered product integrations resulting in <span className="text-primary font-medium">10% engagement growth</span></span>
                     </li>
                     <li className="flex items-start">
                       <div className="h-5 w-5 rounded-full bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-center mr-2 mt-0.5">
